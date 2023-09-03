@@ -6,7 +6,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CardliComponent } from './components/cardli/cardli.component';
 import { RTOSComponent } from './components/rtos/rtos.component';
-import { BitstoryComponent } from './components/bitstory/bitstory.component'; 
+import { BitstoryComponent } from './components/bitstory/bitstory.component';
+import { UiPathComponent } from './components/uipath/uipath.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'RTOS', component: RTOSComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'bitstory', component: BitstoryComponent},
+  {path: 'uipath', component: UiPathComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];

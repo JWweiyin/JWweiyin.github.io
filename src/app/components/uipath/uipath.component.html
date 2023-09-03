@@ -1,0 +1,173 @@
+<div class="container">
+  <h1 id="title">
+    Internship project with <br />
+    Central Provident Fund Board - <br />UiPath: A Robotic Process <br />
+    Automation tool
+  </h1>
+  <br />
+  <br />
+  <h2>Table of Contents</h2>
+  <br />
+  <ul>
+    <li class="header">
+      <p><a href="/uipath#aboutCPF">About CPF Board</a></p>
+    </li>
+    <li class="header">
+      <p><a href="/uipath#aboutUiPath">About UiPath</a></p>
+    </li>
+
+    <li class="header">
+      <p><a href="/uipath#dev">Development Process</a></p>
+    </li>
+    <li class="header">
+      <p><a href="/cardli#learning">Learning Points</a></p>
+    </li>
+  </ul>
+  <br />
+  <h2 id="aboutCPF">About Central Provident Fund Board</h2>
+  <figure>
+    <img src="../../../assets/CPF.png" alt="" id="logo" class="center" />
+    <figcaption>Source: Central Provident Fund Board</figcaption>
+  </figure>
+  <br />
+  <p>
+    CPF Board is a trusted and respected social security organisation that
+    provides Singaporeans with the ability to accumulate savings for three main
+    purposes – home financing, healthcare financing and lifelong income. Since
+    its founding in 1955, CPF Board has adapted to meet the needs of each
+    subsequent generation of Singaporeans. It provides the only state-run
+    retirement plan in Singapore and is mandatory for working Singaporeans and
+    Permanent Residents.
+    <br />
+    <br />
+    During my internship, I:
+  </p>
+  <ul>
+    <li>
+      Designed and implemented 26 UiPath scripts to automate the User Acceptance
+      Testing process
+    </li>
+    <li>
+      Consulted the Software Requirements Specification document and the Test
+      Suite document for guidance on implementing my scripts
+    </li>
+    <li>
+      Networked with professionals from various departments within CPF Board at
+      company's internal Innovation Events
+    </li>
+  </ul>
+
+  <br />
+  <h2 id="aboutUiPath">About UiPath</h2>
+  <figure>
+    <img src="../../../assets/UiPath.png" alt="" id="logo" class="center" />
+    <figcaption>Source: UiPath</figcaption>
+  </figure>
+  <br />
+  <p>
+    UiPath is an Robotic Process Automation (RPA) tool. RPA is a software
+    technology that enables software robots to emulate human interactions with
+    digital systems and software. Software robots are capable of carrying out an
+    extensive range of input and output actions, such as executing keystrokes,
+    identifying and extracting onscreen data and clicking on user interface
+    elements. Software robots can execute sequences of digital events with
+    greater efficiency and fewer errors than human operators.
+    <br />
+    <br />
+    UiPath Studio is a low-code build environment that users can make
+    automations with. With features such as a drag-and-drop editor interface and
+    workflow recording, the program requires very little programming knowledge
+    to use.
+  </p>
+
+  <br />
+  <h2 id="dev">Development Process</h2>
+  <br />
+  <p>
+    I wrote 26 UiPath scripts to execute the testing process on an intranet
+    application for 14 jobs related to CPF Board’s key business practices. I
+    wrote 2 UiPath scripts for most jobs, one script to handle the preparer
+    process and one script to handle the verifier process. My automation scripts
+    were intended to emulate the digital actions of customer support staff using
+    the web application to make manual transactions.
+
+    <br />
+    <br />
+    For the preparer process script, my program extracted parameters such as CPF
+    account numbers and property indexes from a Microsoft Excel spreadsheet,
+    input the parameters into a web form, submitted the form for verification,
+    and finally returned the outcome to the spreadsheet.
+    <br />
+    <br />
+    For the verifier process script, my program extracted the same parameters
+    from the same spreadsheet, compared the parameters against the corresponding
+    fields in the form submitted for verification, confirmed the verification,
+    and finally returned the outcome of the transaction to the spreadsheet.
+    <br />
+    <br />
+    The outcomes of the preparer and the verifier process were compared to the
+    expected outcomes to ensure that the system was producing the desired
+    outcomes.
+    <br />
+    <br />
+    <figure>
+      <img
+        src="../../../assets/UiPathSample.png"
+        alt=""
+        id="logo"
+        class="center"
+      />
+      <figcaption>
+        Partial flowchart of a preparer process UiPath script
+      </figcaption>
+    </figure>
+    <br />
+    <br />
+    My scripting was guided by the four test cases listed in the test suite
+    provided:
+  </p>
+  <ol>
+    <li>Login from landing page with CPF Account No.</li>
+    <li>Displaying information on enquiry page</li>
+    <li>UI functionality</li>
+    <li>Security clearance functionality</li>
+  </ol>
+  <br />
+
+  <h2 id="learning">Learning Points</h2>
+  <br />
+  <p>
+    This internship has given me an insight into the
+    <b>development and testing processes</b> of the programs that CPF Board
+    produces. Though initially I had assumed that the working environment and
+    process at CPF Board would be rather rigid as the aim of the programs it
+    produces are to serve government policies, I found that CPF Board has a
+    culture of growth and innovation. CPF Board’s Business Application Systems
+    Group holds regular Innovation Events where employees from the department
+    showcase the enhancements they have developed for CPF Board’s systems. Many
+    of the employees had upskilled themselves to work with new technologies such
+    as <b>UiPath</b> and <b>PowerBI</b> in order to improve the efficiency of
+    these systems. From this my main takeaway is that working in the IT industry
+    requires one to be self motivated in order to keep up with new developments.
+    <br />
+    <br />
+    CPF Board’s work process is customer-focused and dynamic, working closely
+    with the users of the program at every step of the process to ensure that
+    the program fully meets their needs. Utilising the Agile framework, the IT
+    teams behind the program develop it in phases, starting with the minimum
+    viable product and adding more features with each increment. It is a growing
+    trend for developers to follow the Agile framework, as the program is
+    developed alongside regular feedback from the customer, and learning to work
+    in such an environment would be a useful skill for my future career.
+    <br />
+    <br />
+    Using UiPath to automate processes is a skill that I can use in my future
+    career. Jobs that require UiPath or other automation tools include Solution
+    Architects or RPA Developers, who utilise RPA tools for the purposes of
+    automating repetitive tasks to accelerate business processes and free up
+    manual labour that would otherwise be spent completing these tasks.
+  </p>
+  <br />
+  <br />
+  <h4><a routerLink="/projects">Back to Projects</a></h4>
+</div>
